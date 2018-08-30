@@ -261,72 +261,7 @@ public class UserRepositoryTest {
 
 ## 八. 修改数据源为 `druid`
 
-### 8.1 新增依赖
-
-```xml
-<!-- druid -->
-<dependency>
-    <groupId>com.alibaba</groupId>
-    <artifactId>druid</artifactId>
-    <version>1.0.18</version>
-</dependency>
-```
-
-### 8.2 修改配置
-
-```yaml
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/spring-data
-    type: com.alibaba.druid.pool.DruidDataSource
-    initialSize: 5
-    minIdle: 5
-    maxActive: 20
-    maxWait: 60000
-    timeBetweenEvictionRunsMillis: 60000
-    minEvictableIdleTimeMillis: 300000
-    validationQuery: SELECT 1 FROM DUAL
-    testWhileIdle: true
-    testOnBorrow: false
-    testOnReturn: false
-    poolPreparedStatements: true
-    maxPoolPreparedStatementPerConnectionSize: 20
-    filters: stat,wall,log4j
-    useGlobalDataSourceStat: true
-  jpa:
-    generate-ddl: true
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-```
-
-### 8.3 新增两个配置类
-
-```java
-@SuppressWarnings("serial")
-@WebServlet(urlPatterns = "/druid/*",
-        initParams={
-                @WebInitParam(name="allow",value="192.168.16.110,127.0.0.1"),// IP白名单 (没有配置或者为空，则允许所有访问)
-                @WebInitParam(name="deny",value="192.168.16.111"),// IP黑名单 (存在共同时，deny优先于allow)
-                @WebInitParam(name="loginUsername",value="shanhy"),// 用户名
-                @WebInitParam(name="loginPassword",value="shanhypwd"),// 密码
-                @WebInitParam(name="resetEnable",value="false")// 禁用HTML页面上的“Reset All”功能
-        })
-public class DruidStatViewServlet extends StatViewServlet {
-}
-```
-
-```java
-@WebFilter(filterName="druidWebStatFilter",urlPatterns="/*",
-    initParams={
-        @WebInitParam(name="exclusions",value="*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*")// 忽略资源
-})
-public class DruidStatFilter extends WebStatFilter {
-}
-```
+[官方starter](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter)
 
 ### 8.4 启动类增加注解
 
