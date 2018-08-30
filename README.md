@@ -18,8 +18,8 @@
 `spring-boot` 使用起来，也有常规的套路，这里我将我在实际生产中使用的套装，给剖析出来。
 
 1. [`spring-boot` 的 `web` 开发项目](spring-boot-web.MD) （项目：`spring-boot-web`）
-2. [`spring-boot` 使用 `jpa` 进行数据库访问, 使用 `druid` 作为数据库连接池](spring-boot-datajpa.md)
-3. `spring-boot` 通过 `aop` 进行日志收集
+2. [`spring-boot` 使用 `jpa` 进行数据库访问, 使用 `druid` 作为数据库连接池](spring-boot-datajpa.md)(项目：`spring-boot-data`)
+3. [`spring-boot` 通过 `aop` 进行日志收集](spring-boot-aop.md)(项目：`spring-boot-aop`)
 4. `spring-boot` 整合 `mybatis`, `tkmybatis` 进行数据库访问
 5. `spring-boot` 使用 `redis` 进行数据存储
 6. `spring-boot` 配置健康监控节点
