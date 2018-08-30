@@ -263,14 +263,5 @@ public class UserRepositoryTest {
 
 [官方starter](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter)
 
-### 8.4 启动类增加注解
 
-```java
-@ServletComponentScan
-public class DataApplication {
-    // some code
-}
-```
-
-![](./img/datasource.png)
 
