@@ -19,9 +19,9 @@
 
 1. [`spring-boot` 的 `web` 开发项目](spring-boot-web.MD) （项目：`spring-boot-web`）
 2. [`spring-boot` 使用 `jpa` 进行数据库访问, 使用 `druid` 作为数据库连接池](spring-boot-datajpa.md)
-3. `spring-boot` 整合 `mybatis` 进行数据库访问
-4. `spring-boot` 使用 `redis` 进行数据存储
-5. `spring-boot` 通过 `aop` 进行日志收集
+3. `spring-boot` 通过 `aop` 进行日志收集
+4. `spring-boot` 整合 `mybatis`, `tkmybatis` 进行数据库访问
+5. `spring-boot` 使用 `redis` 进行数据存储
 6. `spring-boot` 配置健康监控节点
 7. `spring-boot` 打包运行
 8. `spring-boot` 在 `Tomcat` 中运行
