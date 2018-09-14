@@ -259,9 +259,6 @@ public class UserRepositoryTest {
 ![](./img/data-test-pass.png)
 
 
-## 八. 修改数据源为 `druid`
-
-[官方starter](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter)
 
 
 
