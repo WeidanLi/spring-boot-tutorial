@@ -6,7 +6,7 @@
 ---
 
 ## WEB 内容
-- [一个简单的入门 web 项目](./blob/master/note/web-a-simple-web-example.md)
+- [一个简单的入门 web 项目](./note/web-a-simple-web-example.md)
 - [springboot 常用异常信息返回](./blob/master/note/web-usage-controller-advice.md)
 - [springboot 与 web 拦截器](./blob/master/note/web-interceptor.md)
 - [springboot 与数据接口](./blob/master/note/web-json-controller.md)
