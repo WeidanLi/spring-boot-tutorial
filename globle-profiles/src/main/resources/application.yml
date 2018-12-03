@@ -1,0 +1,5 @@
+common:
+  profile: common-profile
+spring:
+  profiles:
+    active: dev
