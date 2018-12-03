@@ -1,27 +1,27 @@
 
 
 ## 简述
-- [什么是 spring-boot](./blob/master/note/1.what-is-spring-boot.md)
+- [什么是 spring-boot](./note/1.what-is-spring-boot.md)
 
 ---
 
 ## WEB 内容
 - [一个简单的入门 web 项目](./note/web-a-simple-web-example.md)
-- [springboot 常用异常信息返回](./blob/master/note/web-usage-controller-advice.md)
-- [springboot 与 web 拦截器](./blob/master/note/web-interceptor.md)
-- [springboot 与数据接口](./blob/master/note/web-json-controller.md)
-- [springboot 与数据验证](./blob/master/note/web-json-controller.md)
+- [springboot 常用异常信息返回](./note/web-usage-controller-advice.md)
+- [springboot 与 web 拦截器](./note/web-interceptor.md)
+- [springboot 与数据接口](./note/web-json-controller.md)
+- [springboot 与数据验证](./note/web-json-controller.md)
 - springboot 与 Thymeleaf 模板
-- [springboot 与 freemark 模板](./blob/master/note/web-freemarker.md)
+- [springboot 与 freemark 模板](./note/web-freemarker.md)
 - springboot 与 jsp 模板
-- [springboot 与接口文档系统 swagger](./blob/master/note/web-swagger2.md)
-- [springboot 与 security 保护 web 安全](./blob/master/note/web-security.md)
+- [springboot 与接口文档系统 swagger](./note/web-swagger2.md)
+- [springboot 与 security 保护 web 安全](./note/web-security.md)
 - springboot 与 oauth 实现单点登陆
 
 ---
 
 ## 全局配置
-- [springboot 的多配置环境配置](./blob/master/note/globle-profiles.md)
+- [springboot 的多配置环境配置](./note/globle-profiles.md)
 - springboot 日志使用
 - springboot 的 AOP 应用
 
