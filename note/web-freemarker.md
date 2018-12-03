@@ -1,3 +1,15 @@
+# Table of Contents
+
+* [springboot 与 freemark 模板](#springboot-与-freemark-模板)
+  * [一. 简述](#一-简述)
+  * [二. 开发](#二-开发)
+    * [1. `MVN` 的依赖](#1-`mvn`-的依赖)
+    * [2. 控制器](#2-控制器)
+    * [3. 编写 `ftl` 和 静态文件](#3-编写-`ftl`-和-静态文件)
+    * [4. 请求 `http://localhost:8080/hello` 以及 `http://localhost:8080/hello.js`](#4-请求-`httplocalhost8080hello`-以及-`httplocalhost8080hellojs`)
+  * [三. 总结](#三-总结)
+
+
 # springboot 与 freemark 模板
 
 ## 一. 简述
