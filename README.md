@@ -10,7 +10,7 @@
 - [springboot 常用异常信息返回](./note/web-usage-controller-advice.md)
 - [springboot 与 web 拦截器](./note/web-interceptor.md)
 - [springboot 与数据接口](./note/web-json-controller.md)
-- [springboot 与数据验证](./note/web-json-controller.md)
+- springboot 与数据验证
 - springboot 与 Thymeleaf 模板
 - [springboot 与 freemark 模板](./note/web-freemarker.md)
 - springboot 与 jsp 模板
