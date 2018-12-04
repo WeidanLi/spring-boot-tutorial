@@ -17,6 +17,7 @@
         <module>web-freemarker</module>
         <module>web-security</module>
         <module>globle-profiles</module>
+        <module>globle-log-logback</module>
     </modules>
 
     <properties>

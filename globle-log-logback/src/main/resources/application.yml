@@ -1,0 +1,8 @@
+#logging:
+#  level:
+#    cn.liweidan.springboot.logback.endpoint.UserEndpoint: debug
+logging:
+  group:
+    user: cn.liweidan.springboot.logback.endpoint.UserEndpoint
+  level:
+    user: debug
