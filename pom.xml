@@ -18,6 +18,9 @@
         <module>web-security</module>
         <module>globle-profiles</module>
         <module>globle-log-logback</module>
+        <module>spring-boot-aop</module>
+        <module>spring-boot-data</module>
+        <module>spring-boot-web</module>
     </modules>
 
     <properties>
