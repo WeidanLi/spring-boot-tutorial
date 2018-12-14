@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @email toweidan@126.com
  */
 @SpringBootApplication // #1
-public class WebApplication {
+public class AopApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebApplication.class, args); // #2
+        SpringApplication.run(AopApplication.class, args); // #2
     }
 
 }
