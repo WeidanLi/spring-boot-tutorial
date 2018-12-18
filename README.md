@@ -23,7 +23,7 @@
 ## 全局配置
 - [springboot 的多配置环境配置](./note/globle-profiles.md)
 - [springboot 日志使用（`LogBack`）](./note/globle-log-logback.md)
-- springboot 的 AOP 应用
+- [springboot 的 AOP 应用](./note/spring-boot-aop.md)
 
 ---
 
