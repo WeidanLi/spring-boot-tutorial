@@ -16,7 +16,6 @@
 - springboot 与 jsp 模板
 - [springboot 与接口文档系统 swagger](./note/web-swagger2.md)
 - [springboot 与 security 保护 web 安全](./note/web-security.md)
-- springboot 与 oauth 实现单点登陆
 
 ---
 
@@ -43,7 +42,7 @@
 ---
 
 ## 部署与监控
-- springboot监控 springbootadmin结合
-- springboot的打包与单独部署 部署到tomcat
-- springboot与docker相结合
-- spring项目转springboot项目
+- springboot监控 结合 spring-boot-admin 实现项目监控
+- springboot 的打包与单独部署 部署到 tomcat
+- springboot 与 docker 相结合
+- spring 项目转 springboot 项目
