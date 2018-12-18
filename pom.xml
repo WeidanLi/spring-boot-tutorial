@@ -21,6 +21,7 @@
         <module>spring-boot-aop</module>
         <module>spring-boot-data</module>
         <module>spring-boot-web</module>
+        <module>web-validate</module>
     </modules>
 
     <properties>
