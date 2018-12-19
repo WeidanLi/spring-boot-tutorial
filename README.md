@@ -25,7 +25,8 @@
 ---
 
 ## 数据处理
-- [springboot与spring data jpa](./note/spring-boot-data-jpa-simple.md)
+- [springboot 与 spring data jpa](./note/spring-boot-data-jpa-simple.md)
+- [springboot 与 spring data jpa 配合 DDD 开发](./note/spring-boot-data-jpa-with-DDD.md)
 - springboot与mybatis，配合 tkmybatis/PageHelper 数据读取
 - springboot与redis处理缓存
 - springboot与MongoDB数据处理

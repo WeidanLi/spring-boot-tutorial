@@ -72,6 +72,8 @@
 
 ### 2. 开发用户接口
 
+此处通常需要返回 `DTO` 类，但是为了方便就不去做转换了。
+
 ```java
 @RestController
 @RequestMapping("user")

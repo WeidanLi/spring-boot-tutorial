@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.liweidan.springboot.data</groupId>
-    <artifactId>spring-boot-data-jpa</artifactId>
+    <groupId>cn.liweidan.springboot.jpaddd</groupId>
+    <artifactId>spring-boot-data-jpa-with-ddd</artifactId>
 
     <dependencies>
         <dependency>
@@ -47,5 +47,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
