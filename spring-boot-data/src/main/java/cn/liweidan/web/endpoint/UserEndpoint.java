@@ -36,7 +36,7 @@ public class UserEndpoint {
     @GetMapping("{id}")
     @ResponseStatus(HttpStatus.OK)
     public UserDo idOf(@PathVariable("id") Long id) {
-        return userRepository.findOne(id);
+        return userRepository.findById(id).get();
     }
 
     @PostMapping
@@ -54,7 +54,7 @@ public class UserEndpoint {
     @DeleteMapping("{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
     public void delete(@PathVariable("id") Long id) {
-        userRepository.delete(id);
+        userRepository.deleteById(id);
     }
 
     @GetMapping("name/{name}")

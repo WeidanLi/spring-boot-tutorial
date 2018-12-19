@@ -41,10 +41,9 @@ public class UserService {
         userRepository.deleteById(userId);
     }
 
+    @Transactional(readOnly = true)
     public UserDo getById(Long userId) {
         return userRepository.findById(userId)
                 .orElse(null);
     }
-
-
 }

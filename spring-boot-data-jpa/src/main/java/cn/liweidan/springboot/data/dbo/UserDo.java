@@ -37,4 +37,12 @@ public class UserDo {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "UserDo{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
