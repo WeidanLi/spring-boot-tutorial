@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-boot-data-jpa
+  jpa:
+    hibernate:
+      ddl-auto: create-drop # 定义数据库生成策略
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect # 设置 innoDB 引擎
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpa_data?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true

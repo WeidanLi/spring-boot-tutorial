@@ -11,9 +11,7 @@
 - [springboot 与 web 拦截器](./note/web-interceptor.md)
 - [springboot 与数据接口](./note/web-json-controller.md)
 - [springboot 与数据验证](./note/web-validate.md)
-- springboot 与 Thymeleaf 模板
 - [springboot 与 freemark 模板](./note/web-freemarker.md)
-- springboot 与 jsp 模板
 - [springboot 与接口文档系统 swagger](./note/web-swagger2.md)
 - [springboot 与 security 保护 web 安全](./note/web-security.md)
 
@@ -27,8 +25,8 @@
 ---
 
 ## 数据处理
-- springboot与spring data jpa
-- springboot与mybatis，配合tkmybatis数据读取
+- [springboot与spring data jpa](./note/)
+- springboot与mybatis，配合 tkmybatis/PageHelper 数据读取
 - springboot与redis处理缓存
 - springboot与MongoDB数据处理
 - springboot与ES搜索引擎
