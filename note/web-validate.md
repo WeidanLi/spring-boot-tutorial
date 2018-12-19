@@ -28,6 +28,8 @@
 
 `JSR-303` 是 `Java` 的验证规范，早期是在 `Hibernate` 框架中实现的，后面被抽取到 `Java` 体系。`Spring-Boot` 使用了 `hibernate-validator` 验证器，所以也包含了 `JSR-303` 在里面。当需要进行参数验证的时候，只需要几个注解即可实现复杂的验证。
 
+项目示例：`web-validate`
+
 ## 二. 开发
 
 ### 1. 引入依赖
