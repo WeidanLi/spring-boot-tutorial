@@ -24,6 +24,7 @@
         <module>web-validate</module>
         <module>spring-boot-data-jpa</module>
         <module>spring-boot-data-jpa-with-ddd</module>
+        <module>spring-boot-data-jpa-with-query</module>
     </modules>
 
     <properties>
