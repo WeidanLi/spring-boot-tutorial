@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.liweidan.springboot.mybatis.mapper.UserMapper">
+
+    <resultMap id="userResult" type="cn.liweidan.springboot.mybatis.dbo.UserDo">
+        <id property="uuid" column="user_uuid"/>
+        <result property="name" column="user_name"/>
+        <result property="id" column="user_id"/>
+        <result property="salary" column="user_salary"/>
+    </resultMap>
+
+    <select id="selectUserById" resultMap="userResult">
+        SELECT *
+        FROM user_db
+        WHERE user_uuid = #{userUuid}
+    </select>
+
+    <insert id="addUser">
+        insert into user_db (user_uuid, user_name, user_id, user_salary)
+        values (#{uuid}, #{name}, #{id}, #{salary});
+    </insert>
+
+    <select id="selectAllUser" resultMap="userResult">
+        SELECT *
+        FROM user_db
+    </select>
+
+</mapper>

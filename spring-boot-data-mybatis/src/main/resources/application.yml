@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-boot-data-jpa
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis_data?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+mybatis:
+  mapper-locations: classpath*:/dbo-mapper/*.xml
