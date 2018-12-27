@@ -1,5 +1,26 @@
 # springboot与mybatis，配合 tkmybatis/PageHelper 数据读取
 
+
+* [springboot与mybatis，配合 tkmybatis/PageHelper 数据读取](#springboot与mybatis，配合-tkmybatispagehelper-数据读取)
+  * [一. 简述](#一-简述)
+  * [二. 开发](#二-开发)
+    * [(一) 集成 MyBatis](#一-集成-mybatis)
+      * [1. mvn依赖](#1-mvn依赖)
+      * [2. 用户类和仓库](#2-用户类和仓库)
+      * [3. SpringBoot配置](#3-springboot配置)
+      * [3. 接口层](#3-接口层)
+      * [4. 测试](#4-测试)
+    * [(二) 集成 TkMybatis 和 PageHelper](#二-集成-tkmybatis-和-pagehelper)
+      * [1. 加入 mvn 依赖](#1-加入-mvn-依赖)
+      * [2. 启动类或配置类加上 MapperScan 注解](#2-启动类或配置类加上-mapperscan-注解)
+      * [3. DBO 加上 jpa注解](#3-dbo-加上-jpa注解)
+      * [4. Mapper接口修改](#4-mapper接口修改)
+      * [5. 调用](#5-调用)
+      * [6. 分页助手的使用](#6-分页助手的使用)
+  * [三. 总结](#三-总结)
+
+
+
 ## 一. 简述
 
 `MyBatis` 是一个简单粗暴的 `orm` 框架，与 `hibernate` 相比起来，速度要快一点，封装也要少一点。如果要说封装程度的话，那就是对查询、返回结果的过程进行封装。
