@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-boot-data-MongoDB
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/user_db
