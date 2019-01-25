@@ -35,8 +35,7 @@
 ---
 
 ## 测试
-- 测试你的springboot 项目
-- springboot测试配置
+- [测试你的 springboot 项目](./note/spring-boot-test.md)
 
 ---
 
