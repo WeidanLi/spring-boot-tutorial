@@ -1,5 +1,19 @@
 # springboot 监控 结合 spring-boot-admin 实现项目监控
 
+
+* [springboot 监控 结合 spring-boot-admin 实现项目监控](#springboot-监控-结合-spring-boot-admin-实现项目监控)
+  * [一. 简述](#一-简述)
+  * [二. 开发](#二-开发)
+    * [（一） spring-boot-admin 服务端的搭建](#（一）-spring-boot-admin-服务端的搭建)
+      * [1.mvn依赖：](#1mvn依赖：)
+      * [2.启动器编写](#2启动器编写)
+      * [3.配置文件 application.yml](#3配置文件-applicationyml)
+  * [（二）spring-boot-admin 客户端集成到 springboot 项目](#（二）spring-boot-admin-客户端集成到-springboot-项目)
+      * [1.mvn依赖](#1mvn依赖)
+      * [2.启动器编写](#2启动器编写-1)
+      * [3.配置文件application.yml](#3配置文件applicationyml)
+  * [三. 测试](#三-测试)
+
 ## 一. 简述
 
 针对基于 `SpringBoot` 构建的微服务项目（当然也可以是普通项目），我们可以通过 `SpringBoot` 官方提供的 `spring-boot-starter-actuator` 套件进行监控。但是这个套件有个问题，就是只有 `HTTP` 接口可以调用，如果我们需要可视化的监控界面，则需要配置 `ELK` 或者其他的后台管理系统调用这个接口获取系统的信息。
