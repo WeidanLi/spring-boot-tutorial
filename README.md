@@ -40,7 +40,7 @@
 ---
 
 ## 部署与监控
-- springboot监控 结合 spring-boot-admin 实现项目监控
+- [springboot 监控 结合 spring-boot-admin 实现项目监控](./note/global-admin.md)
 - springboot 的打包与单独部署 部署到 tomcat
 - springboot 与 docker 相结合
 - spring 项目转 springboot 项目

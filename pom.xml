@@ -29,6 +29,7 @@
         <module>spring-boot-data-mongo</module>
         <module>spring-boot-data-redis</module>
         <module>spring-boot-test</module>
+        <module>global-admin</module>
     </modules>
 
     <properties>
