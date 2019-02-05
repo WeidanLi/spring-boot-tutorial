@@ -30,6 +30,7 @@
         <module>spring-boot-data-redis</module>
         <module>spring-boot-test</module>
         <module>global-admin</module>
+        <module>global-inner-tomcat</module>
     </modules>
 
     <properties>
